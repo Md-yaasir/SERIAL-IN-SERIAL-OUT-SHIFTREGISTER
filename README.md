@@ -1,4 +1,4 @@
-# EXP 10-SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
 
 **AIM:**
 
@@ -25,33 +25,23 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
-/* write all the steps invloved */
+![image](https://github.com/user-attachments/assets/50187361-8a89-4c14-86f3-8d727047ee1d)
 
 **PROGRAM**
 
-Developed by:MOHAMMED YAASIR.Y RegisterNumber:24900359
-```
-module EXP10(clk, sin, q);
-input clk;
-input sin;
-output [3:0] q;
-reg [3:0] q;
-always @(posedge clk)
-begin
-q[0] <= sin;
-q[1] <= q[0];
-q[2] <= q[1];
-q[3] <= q[2];
-end
-endmodule
-```
+![image](https://github.com/user-attachments/assets/34920ab1-0342-437e-9a6a-fa68cd98d837)
+
+Developed by:MOHAMMED YAASIR Y RegisterNumber: 24900359
+
 
 
 **RTL LOGIC FOR SISO Shift Register**
-![image](https://github.com/prideeshm/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/144870483/664312d8-2d78-47bc-9f81-bb3e1d684ac4)
+
+![Screenshot 2024-12-29 200717](https://github.com/user-attachments/assets/c7fff2b6-876d-4877-9474-18ec3acb61f7)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-![image](https://github.com/prideeshm/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/144870483/528deb9c-4aaa-41fa-93e5-e2444ed9b85c)
 
-**RESULTS:**
-SISO Shift Register using verilog and validating their functionality using their functional tables has successful execution of the program.
+![Screenshot 2024-12-29 200743](https://github.com/user-attachments/assets/019d61f0-6e01-4028-abf7-425cb87c3419)
+
+**RESULTS**
+SISO shift register using verilog and validating their functionality using their functional tables has sucessful execution of the program.
